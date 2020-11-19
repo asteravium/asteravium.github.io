@@ -194,6 +194,38 @@ video {
   background: rgba(0, 0, 0, 0.3);
 }
 
+/* about page css*/
+.about-page {
+  padding: 2rem 1rem 10rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+.about-text {
+  margin: 0 auto;
+}
+
+.about-text h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.about-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-social {
+  display: flex;
+  justify-content: start;
+}
+
+.about-social a {
+  color: teal;
+  padding: 0 1rem;
+}
+
 /* footer nav extra styles*/
 .footer-logo {
   white-space: nowrap;
@@ -241,6 +273,12 @@ video {
     font-size: 2rem;
     line-height: 2rem;
   }
+
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
   .footer-nav {
     padding-top: 2rem;
   }
