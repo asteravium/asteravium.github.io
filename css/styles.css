@@ -279,6 +279,16 @@ video {
     grid-gap: 1rem;
   }
 
+  .about-text h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
   .footer-nav {
     padding-top: 2rem;
   }
@@ -311,6 +321,16 @@ video {
   }
   .hero-nav {
     width: 100%;
+  }
+
+  .about-text h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .footer-nav {
